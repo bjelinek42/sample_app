@@ -3,4 +3,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  get "/welcome" => "pages#first"
+
+  get "/goodbye" => "pages#second"
+
+  get "/html" => "pages#html"
 end

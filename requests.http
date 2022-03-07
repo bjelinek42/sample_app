@@ -1,0 +1,10 @@
+require "http"
+
+###
+GET http://localhost:3000/welcome.json
+
+###
+GET http://localhost:3000/goodbye.json
+
+###
+GET http://localhost:3000/html.html
